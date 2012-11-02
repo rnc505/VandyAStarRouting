@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5AD8EA01643ABE500D90DF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AD8E9F1643ABE500D90DF7 /* UIKit.framework */; };
+		D5AD8EA21643ABE500D90DF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AD8EA11643ABE500D90DF7 /* Foundation.framework */; };
+		D5AD8EA41643ABE500D90DF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AD8EA31643ABE500D90DF7 /* CoreGraphics.framework */; };
+		D5AD8EAA1643ABE500D90DF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5AD8EA81643ABE500D90DF7 /* InfoPlist.strings */; };
+		D5AD8EAC1643ABE500D90DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AD8EAB1643ABE500D90DF7 /* main.m */; };
+		D5AD8EB01643ABE500D90DF7 /* VUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AD8EAF1643ABE500D90DF7 /* VUAppDelegate.m */; };
+		D5AD8EB21643ABE500D90DF7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AD8EB11643ABE500D90DF7 /* Default.png */; };
+		D5AD8EB41643ABE500D90DF7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AD8EB31643ABE500D90DF7 /* Default@2x.png */; };
+		D5AD8EB61643ABE500D90DF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AD8EB51643ABE500D90DF7 /* Default-568h@2x.png */; };
+		D5AD8EB91643ABE500D90DF7 /* VUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AD8EB81643ABE500D90DF7 /* VUViewController.m */; };
+		D5AD8EBC1643ABE500D90DF7 /* VUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5AD8EBA1643ABE500D90DF7 /* VUViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5AD8E9B1643ABE500D90DF7 /* VandyAStarRouting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VandyAStarRouting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AD8E9F1643ABE500D90DF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5AD8EA11643ABE500D90DF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5AD8EA31643ABE500D90DF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5AD8EA71643ABE500D90DF7 /* VandyAStarRouting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VandyAStarRouting-Info.plist"; sourceTree = "<group>"; };
+		D5AD8EA91643ABE500D90DF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5AD8EAB1643ABE500D90DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5AD8EAD1643ABE500D90DF7 /* VandyAStarRouting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VandyAStarRouting-Prefix.pch"; sourceTree = "<group>"; };
+		D5AD8EAE1643ABE500D90DF7 /* VUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VUAppDelegate.h; sourceTree = "<group>"; };
+		D5AD8EAF1643ABE500D90DF7 /* VUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VUAppDelegate.m; sourceTree = "<group>"; };
+		D5AD8EB11643ABE500D90DF7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D5AD8EB31643ABE500D90DF7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D5AD8EB51643ABE500D90DF7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D5AD8EB71643ABE500D90DF7 /* VUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VUViewController.h; sourceTree = "<group>"; };
+		D5AD8EB81643ABE500D90DF7 /* VUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VUViewController.m; sourceTree = "<group>"; };
+		D5AD8EBB1643ABE500D90DF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VUViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5AD8E981643ABE500D90DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5AD8EA01643ABE500D90DF7 /* UIKit.framework in Frameworks */,
+				D5AD8EA21643ABE500D90DF7 /* Foundation.framework in Frameworks */,
+				D5AD8EA41643ABE500D90DF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5AD8E901643ABE500D90DF7 = {
+			isa = PBXGroup;
+			children = (
+				D5AD8EA51643ABE500D90DF7 /* VandyAStarRouting */,
+				D5AD8E9E1643ABE500D90DF7 /* Frameworks */,
+				D5AD8E9C1643ABE500D90DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5AD8E9C1643ABE500D90DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD8E9B1643ABE500D90DF7 /* VandyAStarRouting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5AD8E9E1643ABE500D90DF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD8E9F1643ABE500D90DF7 /* UIKit.framework */,
+				D5AD8EA11643ABE500D90DF7 /* Foundation.framework */,
+				D5AD8EA31643ABE500D90DF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5AD8EA51643ABE500D90DF7 /* VandyAStarRouting */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD8EAE1643ABE500D90DF7 /* VUAppDelegate.h */,
+				D5AD8EAF1643ABE500D90DF7 /* VUAppDelegate.m */,
+				D5AD8EB71643ABE500D90DF7 /* VUViewController.h */,
+				D5AD8EB81643ABE500D90DF7 /* VUViewController.m */,
+				D5AD8EBA1643ABE500D90DF7 /* VUViewController.xib */,
+				D5AD8EA61643ABE500D90DF7 /* Supporting Files */,
+			);
+			path = VandyAStarRouting;
+			sourceTree = "<group>";
+		};
+		D5AD8EA61643ABE500D90DF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD8EA71643ABE500D90DF7 /* VandyAStarRouting-Info.plist */,
+				D5AD8EA81643ABE500D90DF7 /* InfoPlist.strings */,
+				D5AD8EAB1643ABE500D90DF7 /* main.m */,
+				D5AD8EAD1643ABE500D90DF7 /* VandyAStarRouting-Prefix.pch */,
+				D5AD8EB11643ABE500D90DF7 /* Default.png */,
+				D5AD8EB31643ABE500D90DF7 /* Default@2x.png */,
+				D5AD8EB51643ABE500D90DF7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5AD8E9A1643ABE500D90DF7 /* VandyAStarRouting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5AD8EBF1643ABE500D90DF7 /* Build configuration list for PBXNativeTarget "VandyAStarRouting" */;
+			buildPhases = (
+				D5AD8E971643ABE500D90DF7 /* Sources */,
+				D5AD8E981643ABE500D90DF7 /* Frameworks */,
+				D5AD8E991643ABE500D90DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VandyAStarRouting;
+			productName = VandyAStarRouting;
+			productReference = D5AD8E9B1643ABE500D90DF7 /* VandyAStarRouting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5AD8E921643ABE500D90DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VU;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Robby Cohen";
+			};
+			buildConfigurationList = D5AD8E951643ABE500D90DF7 /* Build configuration list for PBXProject "VandyAStarRouting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5AD8E901643ABE500D90DF7;
+			productRefGroup = D5AD8E9C1643ABE500D90DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5AD8E9A1643ABE500D90DF7 /* VandyAStarRouting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5AD8E991643ABE500D90DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5AD8EAA1643ABE500D90DF7 /* InfoPlist.strings in Resources */,
+				D5AD8EB21643ABE500D90DF7 /* Default.png in Resources */,
+				D5AD8EB41643ABE500D90DF7 /* Default@2x.png in Resources */,
+				D5AD8EB61643ABE500D90DF7 /* Default-568h@2x.png in Resources */,
+				D5AD8EBC1643ABE500D90DF7 /* VUViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5AD8E971643ABE500D90DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5AD8EAC1643ABE500D90DF7 /* main.m in Sources */,
+				D5AD8EB01643ABE500D90DF7 /* VUAppDelegate.m in Sources */,
+				D5AD8EB91643ABE500D90DF7 /* VUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5AD8EA81643ABE500D90DF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5AD8EA91643ABE500D90DF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5AD8EBA1643ABE500D90DF7 /* VUViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5AD8EBB1643ABE500D90DF7 /* en */,
+			);
+			name = VUViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5AD8EBD1643ABE500D90DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D5AD8EBE1643ABE500D90DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5AD8EC01643ABE500D90DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VandyAStarRouting/VandyAStarRouting-Prefix.pch";
+				INFOPLIST_FILE = "VandyAStarRouting/VandyAStarRouting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5AD8EC11643ABE500D90DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VandyAStarRouting/VandyAStarRouting-Prefix.pch";
+				INFOPLIST_FILE = "VandyAStarRouting/VandyAStarRouting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5AD8E951643ABE500D90DF7 /* Build configuration list for PBXProject "VandyAStarRouting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5AD8EBD1643ABE500D90DF7 /* Debug */,
+				D5AD8EBE1643ABE500D90DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5AD8EBF1643ABE500D90DF7 /* Build configuration list for PBXNativeTarget "VandyAStarRouting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5AD8EC01643ABE500D90DF7 /* Debug */,
+				D5AD8EC11643ABE500D90DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5AD8E921643ABE500D90DF7 /* Project object */;
+}
