@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5479A7316441B44009BE9A0 /* VUGraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D5479A7216441B44009BE9A0 /* VUGraphNode.m */; };
+		D5479A7616441C27009BE9A0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5479A7516441C27009BE9A0 /* CoreLocation.framework */; };
+		D5479A7816441C2C009BE9A0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5479A7716441C2C009BE9A0 /* MapKit.framework */; };
+		D5479A7E16442034009BE9A0 /* VUGraphPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D5479A7D16442034009BE9A0 /* VUGraphPath.m */; };
+		D5479A8D164429B7009BE9A0 /* VUGraphOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = D5479A8C164429B7009BE9A0 /* VUGraphOperator.m */; };
+		D5479A9016442EBB009BE9A0 /* VUGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = D5479A8F16442EBB009BE9A0 /* VUGraph.m */; };
 		D5AD8EA01643ABE500D90DF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AD8E9F1643ABE500D90DF7 /* UIKit.framework */; };
 		D5AD8EA21643ABE500D90DF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AD8EA11643ABE500D90DF7 /* Foundation.framework */; };
 		D5AD8EA41643ABE500D90DF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AD8EA31643ABE500D90DF7 /* CoreGraphics.framework */; };
@@ -21,6 +27,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5479A7116441B44009BE9A0 /* VUGraphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VUGraphNode.h; path = ../VUGraphNode.h; sourceTree = "<group>"; };
+		D5479A7216441B44009BE9A0 /* VUGraphNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VUGraphNode.m; path = ../VUGraphNode.m; sourceTree = "<group>"; };
+		D5479A7516441C27009BE9A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D5479A7716441C2C009BE9A0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D5479A7C16442034009BE9A0 /* VUGraphPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUGraphPath.h; sourceTree = "<group>"; };
+		D5479A7D16442034009BE9A0 /* VUGraphPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUGraphPath.m; sourceTree = "<group>"; };
+		D5479A8B164429B7009BE9A0 /* VUGraphOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUGraphOperator.h; sourceTree = "<group>"; };
+		D5479A8C164429B7009BE9A0 /* VUGraphOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUGraphOperator.m; sourceTree = "<group>"; };
+		D5479A8E16442EBB009BE9A0 /* VUGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUGraph.h; sourceTree = "<group>"; };
+		D5479A8F16442EBB009BE9A0 /* VUGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUGraph.m; sourceTree = "<group>"; };
 		D5AD8E9B1643ABE500D90DF7 /* VandyAStarRouting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VandyAStarRouting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AD8E9F1643ABE500D90DF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D5AD8EA11643ABE500D90DF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5479A7816441C2C009BE9A0 /* MapKit.framework in Frameworks */,
+				D5479A7616441C27009BE9A0 /* CoreLocation.framework in Frameworks */,
 				D5AD8EA01643ABE500D90DF7 /* UIKit.framework in Frameworks */,
 				D5AD8EA21643ABE500D90DF7 /* Foundation.framework in Frameworks */,
 				D5AD8EA41643ABE500D90DF7 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +91,8 @@
 		D5AD8E9E1643ABE500D90DF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5479A7716441C2C009BE9A0 /* MapKit.framework */,
+				D5479A7516441C27009BE9A0 /* CoreLocation.framework */,
 				D5AD8E9F1643ABE500D90DF7 /* UIKit.framework */,
 				D5AD8EA11643ABE500D90DF7 /* Foundation.framework */,
 				D5AD8EA31643ABE500D90DF7 /* CoreGraphics.framework */,
@@ -83,6 +103,14 @@
 		D5AD8EA51643ABE500D90DF7 /* VandyAStarRouting */ = {
 			isa = PBXGroup;
 			children = (
+				D5479A7116441B44009BE9A0 /* VUGraphNode.h */,
+				D5479A7216441B44009BE9A0 /* VUGraphNode.m */,
+				D5479A8B164429B7009BE9A0 /* VUGraphOperator.h */,
+				D5479A8C164429B7009BE9A0 /* VUGraphOperator.m */,
+				D5479A8E16442EBB009BE9A0 /* VUGraph.h */,
+				D5479A8F16442EBB009BE9A0 /* VUGraph.m */,
+				D5479A7C16442034009BE9A0 /* VUGraphPath.h */,
+				D5479A7D16442034009BE9A0 /* VUGraphPath.m */,
 				D5AD8EAE1643ABE500D90DF7 /* VUAppDelegate.h */,
 				D5AD8EAF1643ABE500D90DF7 /* VUAppDelegate.m */,
 				D5AD8EB71643ABE500D90DF7 /* VUViewController.h */,
@@ -177,6 +205,10 @@
 				D5AD8EAC1643ABE500D90DF7 /* main.m in Sources */,
 				D5AD8EB01643ABE500D90DF7 /* VUAppDelegate.m in Sources */,
 				D5AD8EB91643ABE500D90DF7 /* VUViewController.m in Sources */,
+				D5479A7316441B44009BE9A0 /* VUGraphNode.m in Sources */,
+				D5479A7E16442034009BE9A0 /* VUGraphPath.m in Sources */,
+				D5479A8D164429B7009BE9A0 /* VUGraphOperator.m in Sources */,
+				D5479A9016442EBB009BE9A0 /* VUGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +327,7 @@
 				D5AD8EC11643ABE500D90DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
