@@ -16,5 +16,7 @@
 -(void)addNode:(VUGraphNode*)node;
 -(void)addPath:(VUGraphPath*)path;
 
+-(VUGraphNode*)getNodeByIdentifier:(NSString*)identifer;
+-(NSSet*)getListOfPlaceNames;
 
 @end

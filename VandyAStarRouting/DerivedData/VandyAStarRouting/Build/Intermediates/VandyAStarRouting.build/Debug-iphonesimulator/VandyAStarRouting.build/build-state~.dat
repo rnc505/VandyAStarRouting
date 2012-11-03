@@ -1,0 +1,561 @@
+TVandyAStarRouting
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist" VandyAStarRouting/VandyAStarRouting-Info.plist
+cProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c000000005092F0910000000000000110
+t1351807121
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000505A2E010000000000228FD0
+t1348087297
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000505A2E01000000000009C220
+t1348087297
+s639520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c00000000505A2E010000000000000279
+t1348087297
+s633
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505A2E0200000000003DCEF0
+t1348087298
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000505A2E0200000000000015F7
+t1348087298
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000505A2E0300000000000F5690
+t1348087299
+s1005200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000505A2E030000000000000E8D
+t1348087299
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505A2E040000000000AB3D60
+t1348087300
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000505A2E0A0000000000001B54
+t1348087306
+s6996
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-bbpbvnkyvojuqbckdcgwrttgaaqt/VandyAStarRouting-Prefix.pch.pth
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VandyAStarRouting.LinkFileList
+c000000005094B51000000000000006BC
+t1351922960
+s1724
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.png
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.png
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/PkgInfo
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/VUViewController.nib
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/json.txt
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m
+c000000005093E8A20000000000000305
+t1351870626
+s773
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.h
+c00000000509440580000000000002DBE
+t1351893080
+s11710
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m
+c0000000050944058000000000002B471
+t1351893080
+s177265
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m
+c00000000509374650000000000000915
+t1351840869
+s2325
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m
+c00000000509400B90000000000000176
+t1351876793
+s374
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m
+c000000005093F23700000000000000D9
+t1351873079
+s217
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m
+c000000005093EDDC00000000000008AC
+t1351871964
+s2220
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m
+c000000005094B510000000000000033F
+t1351922960
+s831
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Prefix.pch
+c0000000050949B760000000000000193
+t1351916406
+s403
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"JSONKit.h"
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/InfoPlist.strings
+c0000000050937465000000000000002D
+t1351840869
+s45
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib
+c0000000050937465000000000000148F
+t1351840869
+s5263
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/json.txt
+c000000005094B41F000000000005968F
+t1351922719
+s366223
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m
+c0000000050937465000000000000015E
+t1351840869
+s350
+
+NVandyAStarRouting/VandyAStarRouting-Info.plist
+c000000005093746500000000000004D4
+t1351840869
+s1236
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies957dbb90ec44b641^cc25c990ec44b641^---0#1#0#--18"Check dependencies36"E3C05878-097B-4580-839D-AAD2D20DFCDC-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.032159
+e373615761.135749
+r0
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:140:2: error: JSONKit does not support Objective-C Automatic Reference Counting (ARC)
+o#error JSONKit does not support Objective-C Automatic Reference Counting (ARC)
+o ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:449:23: error: ARC forbids Objective-C objects in structs or unions
+o  NSError            *error;
+o                      ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:463:6: error: ARC forbids Objective-C objects in structs or unions
+o  id object;
+o     ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:477:27: error: ARC forbids Objective-C objects in structs or unions
+o  NSError                *error;
+o                          ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:505:6: error: ARC forbids Objective-C objects in structs or unions
+o  id key, object;
+o     ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:638:3: error: 'NSAutoreleasePool' is unavailable: not available in automatic reference counting mode
+o  NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init]; // Though technically not required, the run time environment at load time initialization may be less than ideal.
+o  ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h:8:12: note: declaration has been explicitly marked unavailable here
+o@interface NSAutoreleasePool : NSObject {
+o           ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:638:31: error: 'NSAutoreleasePool' is unavailable: not available in automatic reference counting mode
+o  NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init]; // Though technically not required, the run time environment at load time initialization may be less than ideal.
+o                              ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h:8:12: note: declaration has been explicitly marked unavailable here
+o@interface NSAutoreleasePool : NSObject {
+o           ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:653:4: error: ARC forbids explicit message send of 'release'
+o  [[temp_NSNumber init] release];
+o   ^                    ~~~~~~~
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:656:4: error: 'release' is unavailable: not available in automatic reference counting mode
+o  [pool release]; pool = NULL;
+o   ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:36:1: note: declaration has been explicitly marked unavailable here
+o- (oneway void)release NS_AUTOMATED_REFCOUNT_UNAVAILABLE;
+o^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:656:4: error: ARC forbids explicit message send of 'release'
+o  [pool release]; pool = NULL;
+o   ^    ~~~~~~~
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:662:14: error: pointer to non-const type 'id' with no explicit ownership [-Warc]
+o  id         *objects;
+o             ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:679:27: error: cast of C pointer type 'void *' to Objective-C pointer type 'JKArray *' requires a bridged cast
+o  if(JK_EXPECT_T((array = (JKArray *)calloc(1UL, _JKArrayInstanceSize)) != NULL)) { // Directly allocate the JKArray instance via calloc.
+o     ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'
+o#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)
+o                                                    ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^~~~
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:679:27: note: use __bridge to convert directly (no change in ownership)
+o  if(JK_EXPECT_T((array = (JKArray *)calloc(1UL, _JKArrayInstanceSize)) != NULL)) { // Directly allocate the JKArray instance via calloc.
+o                          ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'
+o#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)
+o                                                    ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:679:27: note: use CFBridgingRelease call to transfer ownership of a +1 'void *' into ARC
+o  if(JK_EXPECT_T((array = (JKArray *)calloc(1UL, _JKArrayInstanceSize)) != NULL)) { // Directly allocate the JKArray instance via calloc.
+o                          ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'
+o#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)
+o                                                    ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:684:42: error: pointer to non-const type 'id' with no explicit ownership [-Warc]
+o    if(JK_EXPECT_F((array->objects = (id *)malloc(sizeof(id) * array->capacity)) == NULL)) { [array autorelease]; return(NULL); }
+o                                         ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:197:53: note: expanded from macro 'JK_EXPECT_F'
+o#define JK_EXPECT_F(cond)               JK_EXPECTED(cond, 0U)
+o                                                    ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'
+o#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))
+o                                                                ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:684:95: error: 'autorelease' is unavailable: not available in automatic reference counting mode
+o    if(JK_EXPECT_F((array->objects = (id *)malloc(sizeof(id) * array->capacity)) == NULL)) { [array autorelease]; return(NULL); }
+o                                                                                              ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:37:1: note: declaration has been explicitly marked unavailable here
+o- (id)autorelease NS_AUTOMATED_REFCOUNT_UNAVAILABLE;
+o^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:684:95: error: ARC forbids explicit message send of 'autorelease'
+o    if(JK_EXPECT_F((array->objects = (id *)malloc(sizeof(id) * array->capacity)) == NULL)) { [array autorelease]; return(NULL); }
+o                                                                                              ^     ~~~~~~~~~~~
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:685:12: warning: destination for this '__builtin___memcpy_chk' call is a pointer to ownership-qualified type '__strong id' [-Warc-non-pod-memaccess]
+o    memcpy(array->objects, objects, array->capacity * sizeof(id));
+o    ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h:55:30: note: expanded from macro 'memcpy'
+o   ? __builtin___memcpy_chk (dest, src, len, __darwin_obsz0 (dest))     \
+o     ~~~~~~~~~~~~~~~~~~~~~~  ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:685:12: note: explicitly cast the pointer to silence this warning
+o    memcpy(array->objects, objects, array->capacity * sizeof(id));
+o           ^
+o           (void*)
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h:55:30: note: expanded from macro 'memcpy'
+o   ? __builtin___memcpy_chk (dest, src, len, __darwin_obsz0 (dest))     \
+o                             ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:694:113: error: ARC forbids explicit message send of 'autorelease'
+o  if(!((array != NULL) && (array->objects != NULL) && (objectIndex <= array->count) && (newObject != NULL))) { [newObject autorelease]; return; }
+o                                                                                                                ^         ~~~~~~~~~~~
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:696:8: error: pointer to non-const type 'id' with no explicit ownership [-Warc]
+o    id *newObjects = NULL;
+o       ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:697:26: error: pointer to non-const type 'id' with no explicit ownership [-Warc]
+o    if((newObjects = (id *)realloc(array->objects, sizeof(id) * (array->capacity + 16UL))) == NULL) { [NSException raise:NSMallocException format:@"Unable to resize objects array."]; }
+o                         ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:703:52: warning: destination for this '__builtin___memmove_chk' call is a pointer to ownership-qualified type '__strong id' [-Warc-non-pod-memaccess]
+o  if((objectIndex + 1UL) < array->count) { memmove(&array->objects[objectIndex + 1UL], &array->objects[objectIndex], sizeof(id) * ((array->count - 1UL) - objectIndex)); array->objects[objectIndex] = NULL; }
+o                                           ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h:66:31: note: expanded from macro 'memmove'
+o   ? __builtin___memmove_chk (dest, src, len, __darwin_obsz0 (dest))    \
+o     ~~~~~~~~~~~~~~~~~~~~~~~  ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:703:52: note: explicitly cast the pointer to silence this warning
+o  if((objectIndex + 1UL) < array->count) { memmove(&array->objects[objectIndex + 1UL], &array->objects[objectIndex], sizeof(id) * ((array->count - 1UL) - objectIndex)); array->objects[objectIndex] = NULL; }
+o                                                   ^
+o                                                   (void*)
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h:66:31: note: expanded from macro 'memmove'
+o   ? __builtin___memmove_chk (dest, src, len, __darwin_obsz0 (dest))    \
+o                              ^
+o/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:710:153: error: ARC forbids explicit message send of 'autorelease'
+o  if(!((array != NULL) && (array->objects != NULL) && (objectIndex < array->count) && (array->objects[objectIndex] != NULL) && (newObject != NULL))) { [newObject autorelease]; return; }
+o                                                                                                                                                        ^         ~~~~~~~~~~~
+ofatal error: too many errors emitted, stopping now [-ferror-limit=]
+o2 warnings and 20 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m74610891ec44b641^5ebd2291ec44b641^-12842"/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:140:2: error: JSONKit does not support Objective-C Automatic Reference Counting (ARC)#error JSONKit does not support Objective-C Automatic Reference Counting (ARC) ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:449:23: error: ARC forbids Objective-C objects in structs or unions  NSError            *error;                      ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:463:6: error: ARC forbids Objective-C objects in structs or unions  id object;     ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:477:27: error: ARC forbids Objective-C objects in structs or unions  NSError                *error;                          ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:505:6: error: ARC forbids Objective-C objects in structs or unions  id key, object;     ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:638:3: error: 'NSAutoreleasePool' is unavailable: not available in automatic reference counting mode  NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init]; // Though technically not required, the run time environment at load time initialization may be less than ideal.  ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h:8:12: note: declaration has been explicitly marked unavailable here@interface NSAutoreleasePool : NSObject {           ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:638:31: error: 'NSAutoreleasePool' is unavailable: not available in automatic reference counting mode  NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init]; // Though technically not required, the run time environment at load time initialization may be less than ideal.                              ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h:8:12: note: declaration has been explicitly marked unavailable here@interface NSAutoreleasePool : NSObject {           ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:653:4: error: ARC forbids explicit message send of 'release'  [[temp_NSNumber init] release];   ^                    ~~~~~~~/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:656:4: error: 'release' is unavailable: not available in automatic reference counting mode  [pool release]; pool = NULL;   ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:36:1: note: declaration has been explicitly marked unavailable here- (oneway void)release NS_AUTOMATED_REFCOUNT_UNAVAILABLE;^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:656:4: error: ARC forbids explicit message send of 'release'  [pool release]; pool = NULL;   ^    ~~~~~~~/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:662:14: error: pointer to non-const type 'id' with no explicit ownership [-Warc]  id         *objects;             ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:679:27: error: cast of C pointer type 'void *' to Objective-C pointer type 'JKArray *' requires a bridged cast  if(JK_EXPECT_T((array = (JKArray *)calloc(1UL, _JKArrayInstanceSize)) != NULL)) { // Directly allocate the JKArray instance via calloc.     ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)                                                    ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^~~~/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:679:27: note: use __bridge to convert directly (no change in ownership)  if(JK_EXPECT_T((array = (JKArray *)calloc(1UL, _JKArrayInstanceSize)) != NULL)) { // Directly allocate the JKArray instance via calloc.                          ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)                                                    ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:679:27: note: use CFBridgingRelease call to transfer ownership of a +1 'void *' into ARC  if(JK_EXPECT_T((array = (JKArray *)calloc(1UL, _JKArrayInstanceSize)) != NULL)) { // Directly allocate the JKArray instance via calloc.                          ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:196:53: note: expanded from macro 'JK_EXPECT_T'#define JK_EXPECT_T(cond)               JK_EXPECTED(cond, 1U)                                                    ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:684:42: error: pointer to non-const type 'id' with no explicit ownership [-Warc]    if(JK_EXPECT_F((array->objects = (id *)malloc(sizeof(id) * array->capacity)) == NULL)) { [array autorelease]; return(NULL); }                                         ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:197:53: note: expanded from macro 'JK_EXPECT_F'#define JK_EXPECT_F(cond)               JK_EXPECTED(cond, 0U)                                                    ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:195:65: note: expanded from macro 'JK_EXPECTED'#define JK_EXPECTED(cond, expect)       __builtin_expect((long)(cond), (expect))                                                                ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:684:95: error: 'autorelease' is unavailable: not available in automatic reference counting mode    if(JK_EXPECT_F((array->objects = (id *)malloc(sizeof(id) * array->capacity)) == NULL)) { [array autorelease]; return(NULL); }                                                                                              ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:37:1: note: declaration has been explicitly marked unavailable here- (id)autorelease NS_AUTOMATED_REFCOUNT_UNAVAILABLE;^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:684:95: error: ARC forbids explicit message send of 'autorelease'    if(JK_EXPECT_F((array->objects = (id *)malloc(sizeof(id) * array->capacity)) == NULL)) { [array autorelease]; return(NULL); }                                                                                              ^     ~~~~~~~~~~~/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:685:12: warning: destination for this '__builtin___memcpy_chk' call is a pointer to ownership-qualified type '__strong id' [-Warc-non-pod-memaccess]    memcpy(array->objects, objects, array->capacity * sizeof(id));    ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h:55:30: note: expanded from macro 'memcpy'   ? __builtin___memcpy_chk (dest, src, len, __darwin_obsz0 (dest))     \     ~~~~~~~~~~~~~~~~~~~~~~  ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:685:12: note: explicitly cast the pointer to silence this warning    memcpy(array->objects, objects, array->capacity * sizeof(id));           ^           (void*)/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h:55:30: note: expanded from macro 'memcpy'   ? __builtin___memcpy_chk (dest, src, len, __darwin_obsz0 (dest))     \                             ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:694:113: error: ARC forbids explicit message send of 'autorelease'  if(!((array != NULL) && (array->objects != NULL) && (objectIndex <= array->count) && (newObject != NULL))) { [newObject autorelease]; return; }                                                                                                                ^         ~~~~~~~~~~~/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:696:8: error: pointer to non-const type 'id' with no explicit ownership [-Warc]    id *newObjects = NULL;       ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:697:26: error: pointer to non-const type 'id' with no explicit ownership [-Warc]    if((newObjects = (id *)realloc(array->objects, sizeof(id) * (array->capacity + 16UL))) == NULL) { [NSException raise:NSMallocException format:@"Unable to resize objects array."]; }                         ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:703:52: warning: destination for this '__builtin___memmove_chk' call is a pointer to ownership-qualified type '__strong id' [-Warc-non-pod-memaccess]  if((objectIndex + 1UL) < array->count) { memmove(&array->objects[objectIndex + 1UL], &array->objects[objectIndex], sizeof(id) * ((array->count - 1UL) - objectIndex)); array->objects[objectIndex] = NULL; }                                           ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h:66:31: note: expanded from macro 'memmove'   ? __builtin___memmove_chk (dest, src, len, __darwin_obsz0 (dest))    \     ~~~~~~~~~~~~~~~~~~~~~~~  ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:703:52: note: explicitly cast the pointer to silence this warning  if((objectIndex + 1UL) < array->count) { memmove(&array->objects[objectIndex + 1UL], &array->objects[objectIndex], sizeof(id) * ((array->count - 1UL) - objectIndex)); array->objects[objectIndex] = NULL; }                                                   ^                                                   (void*)/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h:66:31: note: expanded from macro 'memmove'   ? __builtin___memmove_chk (dest, src, len, __darwin_obsz0 (dest))    \                              ^/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m:710:153: error: ARC forbids explicit message send of 'autorelease'  if(!((array != NULL) && (array->objects != NULL) && (objectIndex < array->count) && (array->objects[objectIndex] != NULL) && (newObject != NULL))) { [newObject autorelease]; return; }                                                                                                                                                        ^         ~~~~~~~~~~~fatal error: too many errors emitted, stopping now [-ferror-limit=]2 warnings and 20 errors generated.22(36%IDEClangDiagnosticActivityLogMessage2@71"JSONKit does not support Objective-C Automatic Reference Counting (ARC)-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^139#1#139#1#4995#0#19"User Defined Issues--2@52"ARC forbids Objective-C objects in structs or unions-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^448#22#448#22#16585#0#16"ARC Restrictions--2@52"ARC forbids Objective-C objects in structs or unions-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^462#5#462#5#16838#0#16"ARC Restrictions--2@52"ARC forbids Objective-C objects in structs or unions-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^476#26#476#26#17276#0#16"ARC Restrictions--2@52"ARC forbids Objective-C objects in structs or unions-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^504#5#504#5#18276#0#16"ARC Restrictions--2@86"'NSAutoreleasePool' is unavailable: not available in automatic reference counting mode-373615761#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@206"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h0000000000000000^7#11#7#11#163#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^637#2#637#2#26623#0#14"Semantic Issue--2@86"'NSAutoreleasePool' is unavailable: not available in automatic reference counting mode-373615761#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@206"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h0000000000000000^7#11#7#11#163#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^637#30#637#30#26651#0#14"Semantic Issue--2@46"ARC forbids explicit message send of 'release'-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^652#3#652#3#27522#0#16"ARC Restrictions1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^652#24#652#31#27543#0#-2@76"'release' is unavailable: not available in automatic reference counting mode-373615761#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@197"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^35#0#35#0#878#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^655#3#655#3#27583#0#14"Semantic Issue--2@46"ARC forbids explicit message send of 'release'-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^655#3#655#3#27583#0#16"ARC Restrictions1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^655#8#655#15#27588#0#-2@57"Pointer to non-const type 'id' with no explicit ownership-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^661#13#661#13#27730#0#18"ARC Semantic Issue--2@95"Cast of C pointer type 'void *' to Objective-C pointer type 'JKArray *' requires a bridged cast-373615761#18446744073709551615#0#4(2@33"Expanded from macro 'JK_EXPECT_T'-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^195#52#195#52#7954#0#30"Apple LLVM compiler 4.1 Notice2(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^678#5#678#16#24#0#3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^678#5#678#16#24#0#-2@33"Expanded from macro 'JK_EXPECTED'-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^194#64#194#64#7885#0#30"Apple LLVM compiler 4.1 Notice2(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^194#64#194#68#7885#0#3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^194#64#194#68#7885#0#-2@57"Use __bridge to convert directly (no change in ownership)-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^678#26#678#26#9#0#17"ARC Casting Rules--2@74"Use CFBridgingRelease call to transfer ownership of a +1 'void *' into ARC-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^678#26#678#26#9#0#17"ARC Casting Rules--2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^678#26#678#26#9#0#17"ARC Casting Rules2(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^678#5#678#16#9#43#3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^678#5#678#16#20#32#-2@57"Pointer to non-const type 'id' with no explicit ownership-373615761#18446744073709551615#0#2(2@33"Expanded from macro 'JK_EXPECT_F'-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^196#52#196#52#8016#0#30"Apple LLVM compiler 4.1 Notice--2@33"Expanded from macro 'JK_EXPECTED'-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^194#64#194#64#7885#0#30"Apple LLVM compiler 4.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^683#41#683#41#22#0#18"ARC Semantic Issue--2@80"'autorelease' is unavailable: not available in automatic reference counting mode-373615761#18446744073709551615#0#1(2@55"Declaration has been explicitly marked unavailable here-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@197"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^36#0#36#0#936#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^683#94#683#94#28733#0#14"Semantic Issue--2@50"ARC forbids explicit message send of 'autorelease'-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^683#94#683#94#28733#0#16"ARC Restrictions1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^683#100#683#111#28739#0#-2@105"Destination for this '__builtin___memcpy_chk' call is a pointer to ownership-qualified type '__strong id'-373615761#18446744073709551615#0#2(2@28"Expanded from macro 'memcpy'-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@160"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h0000000000000000^54#29#54#29#1688#0#30"Apple LLVM compiler 4.1 Notice1(3@160"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h0000000000000000^54#5#54#27#1664#0#-2@51"Explicitly cast the pointer to silence this warning-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^684#11#684#11#0#0#14"Semantic Issue1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^684#11#684#11#28780#0#-1#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^684#11#684#11#0#0#18"ARC Semantic Issue1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^684#4#684#10#50#0#-2@50"ARC forbids explicit message send of 'autorelease'-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^693#112#693#112#29372#0#16"ARC Restrictions1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^693#122#693#133#29382#0#-2@57"Pointer to non-const type 'id' with no explicit ownership-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^695#7#695#7#29461#0#18"ARC Semantic Issue--2@57"Pointer to non-const type 'id' with no explicit ownership-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^696#25#696#25#29506#0#18"ARC Semantic Issue--2@106"Destination for this '__builtin___memmove_chk' call is a pointer to ownership-qualified type '__strong id'-373615761#18446744073709551615#0#2(2@29"Expanded from macro 'memmove'-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@160"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h0000000000000000^65#30#65#30#2064#0#30"Apple LLVM compiler 4.1 Notice1(3@160"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/secure/_string.h0000000000000000^65#5#65#28#2039#0#-2@51"Explicitly cast the pointer to silence this warning-373615761#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^702#51#702#51#0#0#14"Semantic Issue1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^702#51#702#51#29894#0#-1#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^702#51#702#51#0#0#18"ARC Semantic Issue1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^702#43#702#50#50#0#-2@50"ARC forbids explicit message send of 'autorelease'-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^709#152#709#152#30637#0#16"ARC Restrictions1(3@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^709#162#709#173#30647#0#-2@37"Too many errors emitted, stopping now-373615761#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic-29"Apple LLVM compiler 4.1 Error--0#0#0#-19%DVTDocumentLocation4@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^4659"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o VandyAStarRouting/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o"36"853D42CD-BCF0-4E27-B95B-A3C7CD4010F7-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.031913
+e373615761.109136
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m46600891ec44b641^b7f11b91ec44b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m0000000000000000^4695"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o VandyAStarRouting/VUAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o"36"541DF6A7-2A7B-4AA7-BECB-480E3D3511D0-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.032022
+e373615761.064563
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.md95d0891ec44b641^7b861091ec44b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m0000000000000000^4659"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o VandyAStarRouting/VUGraph.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o"36"D10B0FCB-FFD3-477B-B59B-D03954C82ED5-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.031960
+e373615761.069150
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.mff5c0891ec44b641^63b51191ec44b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m0000000000000000^4689"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o VandyAStarRouting/../VUGraphNode.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o"36"49960A08-A548-4C11-8176-9B955F12EE3B-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.032004
+e373615761.067540
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.mdd600891ec44b641^a5491191ec44b641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m0000000000000000^4707"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o VandyAStarRouting/VUGraphOperator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o"36"99BEF59B-4154-4309-9BB8-A6F115CB8928-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.031977
+e373615761.079429
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m9e5f0891ec44b641^22551491ec44b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m0000000000000000^4683"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o VandyAStarRouting/VUGraphPath.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o"36"5DA2409B-E025-4057-8753-C1977585C750-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.031937
+e373615761.097817
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.mcd5c0891ec44b641^240a1991ec44b641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m0000000000000000^4713"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o VandyAStarRouting/VUViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o"36"53222260-F20E-47A0-8524-868A7712C35C-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.031973
+e373615761.061797
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m815e0891ec44b641^f3e30f91ec44b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m0000000000000000^4641"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o VandyAStarRouting/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o"36"DE3EF949-C024-4108-BFDC-4FCBA967530F-
+
+CCompileXIB "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib"
+r0
+
+CCopyStringsFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/InfoPlist.strings" VandyAStarRouting/en.lproj/InfoPlist.strings
+r0
+
+CCpResource VandyAStarRouting/Default-568h@2x.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.png
+r0
+
+CCpResource VandyAStarRouting/Default.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.png
+r0
+
+CCpResource VandyAStarRouting/Default@2x.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.png
+r0
+
+CCpResource VandyAStarRouting/json.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/json.txt
+r0
+
+CGenerateDSYMFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting"
+r0
+
+CLd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist" VandyAStarRouting/VandyAStarRouting-Info.plist
+s373615760.791016
+e373615760.794387
+r1
+xProcessInfoPlistFile
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist
+xVandyAStarRouting/VandyAStarRouting-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Process VandyAStarRouting/VandyAStarRouting-Info.plist5299ca90ec44b641^f59dcb90ec44b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Info.plist0000000000000000^912"ProcessInfoPlistFile DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist VandyAStarRouting/VandyAStarRouting-Info.plist    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility VandyAStarRouting/VandyAStarRouting-Info.plist -genpkginfo "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist"36"5FE19182-456C-44BA-9DDA-36FFDC879A57-
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-bbpbvnkyvojuqbckdcgwrttgaaqt/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615760.802116
+e373615761.024903
+r1
+xProcessPCH
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth
+xVandyAStarRouting/VandyAStarRouting-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile VandyAStarRouting/VandyAStarRouting-Prefix.pch9677cd90ec44b641^1c600691ec44b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Prefix.pch0000000000000000^4501"ProcessPCH DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Prefix.pch" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.d"36"503B9342-B04C-4EA2-AFB8-E7F0A8951552-
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Index/PrecompiledHeaders/VandyAStarRouting-Prefix-akfykdaiitiivzfbggnbiaxidijg_ast/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Index/PrecompiledHeaders/VandyAStarRouting-Prefix-asxmlhgzfpuyyrbamhmjjroulsyk_ast/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"
+r0
+

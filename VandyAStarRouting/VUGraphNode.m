@@ -11,14 +11,18 @@
 @implementation VUGraphNode
 @synthesize location = _location, neighbors = _neighbors, identifer = _identifer, title = _title, isSpecialLocation = _isSpecialLocation;
 
-+(VUGraphNode *)nodeWithLocation:(CLLocationCoordinate2D)loc Neighbors:(NSSet *)neighs Idenitifier:(NSString *)ident Title:(NSString *)tit andIsSpecialLocation:(BOOL)specLoc {
++(VUGraphNode *)nodeWithLocation:(CLLocationCoordinate2D)loc Idenitifier:(NSString *)ident Title:(NSString *)tit {
     
     VUGraphNode *newNode = [[VUGraphNode alloc] init];
     [newNode setLocation:loc];
-    [newNode setNeighbors:neighs];
+    [newNode setNeighbors:[NSSet set]];
     [newNode setIdentifer:ident];
     [newNode setTitle:tit];
-    [newNode setIsSpecialLocation:specLoc];
+    [newNode setIsSpecialLocation:(![tit isEqualToString:@""])];
     return newNode;
+}
+
+-(void)addNeighborNode:(VUGraphNode *)neighbor {
+    _neighbors = [_neighbors setByAddingObject:neighbor];
 }
 @end

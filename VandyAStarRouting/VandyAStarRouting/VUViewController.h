@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "VUGraph.h"
 @interface VUViewController : UIViewController
 
 @end

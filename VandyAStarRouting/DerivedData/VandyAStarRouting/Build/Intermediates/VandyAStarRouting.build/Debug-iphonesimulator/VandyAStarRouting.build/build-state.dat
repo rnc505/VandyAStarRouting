@@ -1,0 +1,584 @@
+TVandyAStarRouting
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist" VandyAStarRouting/VandyAStarRouting-Info.plist
+cProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting" normal i386
+cGenerateDSYMFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting"
+cCpResource VandyAStarRouting/Default@2x.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.png
+cCpResource VandyAStarRouting/Default.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.png
+cCopyStringsFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/InfoPlist.strings" VandyAStarRouting/en.lproj/InfoPlist.strings
+cCpResource VandyAStarRouting/points.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/points.txt
+cCpResource VandyAStarRouting/Default-568h@2x.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.png
+cCpResource VandyAStarRouting/paths.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/paths.txt
+cCompileXIB "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib"
+cTouch "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c000000005092F0910000000000000110
+t1351807121
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000505A2E010000000000228FD0
+t1348087297
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000505A2E01000000000009C220
+t1348087297
+s639520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c00000000505A2E010000000000000279
+t1348087297
+s633
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505A2E0200000000003DCEF0
+t1348087298
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000505A2E0200000000000015F7
+t1348087298
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000505A2E0300000000000F5690
+t1348087299
+s1005200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000505A2E030000000000000E8D
+t1348087299
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505A2E040000000000AB3D60
+t1348087300
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000505A2E0A0000000000001B54
+t1348087306
+s6996
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-bbpbvnkyvojuqbckdcgwrttgaaqt/VandyAStarRouting-Prefix.pch.pth
+t2
+s0
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth
+t1351922961
+s4914648
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch.pth
+t1351922989
+s4903988
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o
+t1351922990
+s261448
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o
+t1351925400
+s89928
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o
+t1351925622
+s15116
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o
+t1351924495
+s14488
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o
+t1351922961
+s2800
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o
+t1351924495
+s19836
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o
+t1351925670
+s76540
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VandyAStarRouting.LinkFileList
+c000000005094B51000000000000006BC
+t1351922960
+s1724
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o
+t1351922961
+s3388
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app
+t1351925670
+s408
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM
+t1351925670
+s102
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.png
+t1351922990
+s18594
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.png
+t1351922990
+s6540
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.png
+t1351922990
+s16107
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist
+t1351922960
+s892
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/PkgInfo
+t1351922960
+s8
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting
+t1351925670
+s190704
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/InfoPlist.strings
+t1351922990
+s42
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/VUViewController.nib
+t1351922990
+s822
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/json.txt
+t1351922990
+s366223
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/paths.txt
+t1351923322
+s361814
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/points.txt
+t1351924495
+s3554
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.h
+c000000005094B97A0000000000000283
+t1351924090
+s643
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m
+c000000005094B9990000000000000350
+t1351924121
+s848
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.h
+c00000000509440580000000000002DBE
+t1351893080
+s11710
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m
+c0000000050944058000000000002B471
+t1351893080
+s177265
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.h
+c0000000050937465000000000000017E
+t1351840869
+s382
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m
+c00000000509374650000000000000915
+t1351840869
+s2325
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.h
+c000000005094C0CE00000000000001FB
+t1351925966
+s507
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m
+c000000005094C16800000000000005F7
+t1351926120
+s1527
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.h
+c000000005093F23700000000000000E5
+t1351873079
+s229
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m
+c000000005093F23700000000000000D9
+t1351873079
+s217
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.h
+c000000005093E9FF0000000000000250
+t1351870975
+s592
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m
+c000000005093EDDC00000000000008AC
+t1351871964
+s2220
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.h
+c000000005094B89100000000000000F8
+t1351923857
+s248
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m
+c000000005094C17500000000000007BD
+t1351926133
+s1981
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Prefix.pch
+c0000000050949B760000000000000193
+t1351916406
+s403
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"JSONKit.h"
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/InfoPlist.strings
+c0000000050937465000000000000002D
+t1351840869
+s45
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib
+c0000000050937465000000000000148F
+t1351840869
+s5263
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/json.txt
+c000000005094B41F000000000005968F
+t1351922719
+s366223
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m
+c0000000050937465000000000000015E
+t1351840869
+s350
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/paths.txt
+c000000005094B5B30000000000058556
+t1351923123
+s361814
+
+N/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/points.txt
+c000000005094B8780000000000000DE2
+t1351923832
+s3554
+
+NVandyAStarRouting/VandyAStarRouting-Info.plist
+c000000005093746500000000000004D4
+t1351840869
+s1236
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfd9febf5f844b641^9b54ecf5f844b641^---0#1#0#--18"Check dependencies36"29E67077-21EE-4669-B58B-7D00FAFC5E6E-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615789.940888
+e373615790.153776
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m83fcf0adec44b641^ab5d27aeec44b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m0000000000000000^4673"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o VandyAStarRouting/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -fno-objc-arc -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/JSONKit.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/JSONKit.o"36"7527D1B7-B030-46BF-B117-8EFB46E13AEA-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373618933.942655
+e373618934.002820
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m737ff1f5f844b641^b6ba00f6f844b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m0000000000000000^4695"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o VandyAStarRouting/VUAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUAppDelegate.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUAppDelegate.o"36"9EF369CD-1448-4F85-A9BA-BB7C7F1EE5CD-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373618933.942665
+e373618933.970532
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.md87ff1f5f844b641^cd73f8f5f844b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m0000000000000000^4659"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o VandyAStarRouting/VUGraph.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraph.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraph.o"36"5640748B-B924-4289-A290-95F07D7B627F-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373617295.362303
+e373617295.396739
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m60e95c8ff244b641^b090658ff244b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m0000000000000000^4689"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o VandyAStarRouting/../VUGraphNode.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/../VUGraphNode.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphNode.o"36"B9557560-727C-40FB-87BD-6E8EE29A5C36-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.032004
+e373615761.067540
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.mdd600891ec44b641^a5491191ec44b641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m0000000000000000^4707"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o VandyAStarRouting/VUGraphOperator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphOperator.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphOperator.o"36"99BEF59B-4154-4309-9BB8-A6F115CB8928-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373617295.362295
+e373617295.392414
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.md2e25c8ff244b641^8674648ff244b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m0000000000000000^4683"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o VandyAStarRouting/VUGraphPath.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUGraphPath.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUGraphPath.o"36"A8B6415F-E282-4ED0-9ED3-2ADF5FF8C31E-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373618933.942697
+e373618933.992638
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m3d80f1f5f844b641^ce1cfef5f844b641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m0000000000000000^4713"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o VandyAStarRouting/VUViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VUViewController.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VUViewController.o"36"8A8DEFEB-7FB1-462B-BC65-B818E3AAF037-
+
+CCompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615761.031973
+e373615761.061797
+r1
+xCompileC
+xDerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m815e0891ec44b641^f3e30f91ec44b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m0000000000000000^4641"CompileC DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o VandyAStarRouting/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/main.m" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/main.o"36"DE3EF949-C024-4108-BFDC-4FCBA967530F-
+
+CCompileXIB "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib"
+s373615790.228519
+e373615790.257143
+r1
+xCompileXIB
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compiling /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib78983aaeec44b641^0fd441aeec44b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib0000000000000000^1064"CompileXIB VandyAStarRouting/en.lproj/VUViewController.xib    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/VUViewController.nib" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/VUViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"EADBB36A-969D-443B-BF92-AEB9BEF7457D-
+
+CCopyStringsFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/InfoPlist.strings" VandyAStarRouting/en.lproj/InfoPlist.strings
+s373615790.228502
+e373615790.236857
+r1
+xCopyStringsFile
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/InfoPlist.strings
+xVandyAStarRouting/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy VandyAStarRouting/en.lproj/InfoPlist.strings20993aaeec44b641^1ea33caeec44b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/en.lproj/InfoPlist.strings0000000000000000^743"CopyStringsFile DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj/InfoPlist.strings VandyAStarRouting/en.lproj/InfoPlist.strings    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/en.lproj" -- VandyAStarRouting/en.lproj/InfoPlist.strings36"BB5D082B-D3BA-45E5-9A9D-D230223F7A77-
+
+CCpResource VandyAStarRouting/Default-568h@2x.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.png
+s373615790.228494
+e373615790.233902
+r1
+xCpResource
+xVandyAStarRouting/Default-568h@2x.png
+xDerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.pnge1973aaeec44b641^65e13baeec44b641^---0#0#0#-19%DVTDocumentLocation2@188"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.png000000000080d041^795"CpResource "VandyAStarRouting/Default-568h@2x.png" "DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default-568h@2x.png"    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default-568h@2x.png" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"36"B0BA3F52-C2CD-46DF-84A1-25DC556F27E2-
+
+CCpResource VandyAStarRouting/Default.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.png
+s373615790.228481
+e373615790.235737
+r1
+xCpResource
+xVandyAStarRouting/Default.png
+xDerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.pngf6963aaeec44b641^96593caeec44b641^---0#0#0#-19%DVTDocumentLocation2@180"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.png000000000080d041^767"CpResource VandyAStarRouting/Default.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default.png    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default.png" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"36"6774E580-7CE8-4AE9-9C80-4EA2648FBBA2-
+
+CCpResource VandyAStarRouting/Default@2x.png DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.png
+s373615790.228483
+e373615790.234674
+r1
+xCpResource
+xVandyAStarRouting/Default@2x.png
+xDerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.pnga29a3aaeec44b641^2f143caeec44b641^---0#0#0#-19%DVTDocumentLocation2@183"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.png000000000080d041^780"CpResource "VandyAStarRouting/Default@2x.png" "DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Default@2x.png"    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/Default@2x.png" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"36"454AEF6B-33FF-4631-B74C-1503CF920A0C-
+
+CCpResource VandyAStarRouting/json.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/json.txt
+s373615790.228507
+e373615790.232714
+r1
+xCpResource
+xVandyAStarRouting/json.txt
+xDerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/json.txt
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/json.txt1c9a3aaeec44b641^47933baeec44b641^---0#0#0#-19%DVTDocumentLocation2@177"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/json.txt000000000080d041^758"CpResource VandyAStarRouting/json.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/json.txt    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/json.txt" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"36"3F70A761-CC59-4D3E-91AE-59FC48CA48C3-
+
+CCpResource VandyAStarRouting/paths.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/paths.txt
+s373616122.892101
+e373616122.894453
+r1
+xCpResource
+xVandyAStarRouting/paths.txt
+xDerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/paths.txt
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/paths.txt2174e4faed44b641^a374e5faed44b641^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/paths.txt000000000080d041^761"CpResource VandyAStarRouting/paths.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/paths.txt    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/paths.txt" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"36"2156B8DE-A6B9-41A2-AB49-768F583648C9-
+
+CCpResource VandyAStarRouting/points.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/points.txt
+s373617295.496550
+e373617295.506267
+r1
+xCpResource
+xVandyAStarRouting/points.txt
+xDerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/points.txt
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/points.txtd508818ff244b641^03b4858ff244b641^---0#0#0#-19%DVTDocumentLocation2@179"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/points.txt0000000000000000^764"CpResource VandyAStarRouting/points.txt DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/points.txt    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/points.txt" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"36"4BC3EE1C-823F-4A9D-8772-E1A75A7AE609-
+
+CGenerateDSYMFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM" "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting"
+s373618934.044054
+e373618934.065659
+r1
+xGenerateDSYMFile
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Generating /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYMd1580bf6f844b641^29cf10f6f844b641^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM/0000000000000000^916"GenerateDSYMFile DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app.dSYM"36"DC0DB277-DC90-4FD2-90D7-3853A8AD57CB-
+
+CLd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting" normal i386
+s373618934.009789
+e373618934.037002
+r1
+xLd
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection173"Link /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRoutingb89502f6f844b641^037a09f6f844b641^---0#0#0#--1584"Ld DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting normal i386    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk "-L/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -filelist "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/Objects-normal/i386/VandyAStarRouting.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework MapKit -framework CoreLocation -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/VandyAStarRouting"36"D9B020A6-B83C-43BA-A2B2-56803ADC1BF4-
+
+CProcessInfoPlistFile "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist" VandyAStarRouting/VandyAStarRouting-Info.plist
+s373615760.791016
+e373615760.794387
+r1
+xProcessInfoPlistFile
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist
+xVandyAStarRouting/VandyAStarRouting-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Process VandyAStarRouting/VandyAStarRouting-Info.plist5299ca90ec44b641^f59dcb90ec44b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Info.plist0000000000000000^912"ProcessInfoPlistFile DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist VandyAStarRouting/VandyAStarRouting-Info.plist    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility VandyAStarRouting/VandyAStarRouting-Info.plist -genpkginfo "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app/Info.plist"36"5FE19182-456C-44BA-9DDA-36FFDC879A57-
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-bbpbvnkyvojuqbckdcgwrttgaaqt/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615760.802116
+e373615761.024903
+r1
+xProcessPCH
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth
+xVandyAStarRouting/VandyAStarRouting-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile VandyAStarRouting/VandyAStarRouting-Prefix.pch9677cd90ec44b641^1c600691ec44b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Prefix.pch0000000000000000^4501"ProcessPCH DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Prefix.pch" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-ccgwhoczjayclgfkcihnmqemnnac/VandyAStarRouting-Prefix.pch.d"36"503B9342-B04C-4EA2-AFB8-E7F0A8951552-
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373615789.721834
+e373615789.934057
+r1
+xProcessPCH
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch.pth
+xVandyAStarRouting/VandyAStarRouting-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile VandyAStarRouting/VandyAStarRouting-Prefix.pch020eb9adec44b641^1020efadec44b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Robby/Desktop/Xcode%20Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Prefix.pch0000000000000000^4515"ProcessPCH DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch.pth VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/VandyAStarRouting-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/VandyAStarRouting.build/Debug-iphonesimulator/VandyAStarRouting.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator" -fno-objc-arc --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch.dia" -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/VandyAStarRouting/VandyAStarRouting-Prefix.pch" -o "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Intermediates/PrecompiledHeaders/VandyAStarRouting-Prefix-dodxgauwfelojudaxphemystvsda/VandyAStarRouting-Prefix.pch.d"36"DFBA8366-0E40-4007-8AD5-0EB63D264AC5-
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Index/PrecompiledHeaders/VandyAStarRouting-Prefix-akfykdaiitiivzfbggnbiaxidijg_ast/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Index/PrecompiledHeaders/VandyAStarRouting-Prefix-asxmlhgzfpuyyrbamhmjjroulsyk_ast/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Index/PrecompiledHeaders/VandyAStarRouting-Prefix-dfvifvbozexjdygjeyzgaomyjepw_ast/VandyAStarRouting-Prefix.pch.pth" VandyAStarRouting/VandyAStarRouting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"
+s373618934.081528
+e373618934.087004
+r1
+xTouch
+x/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Touch /Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app63ec14f6f844b641^394616f6f844b641^---0#0#0#--536"Touch DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app    cd "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Robby/Desktop/Xcode Projects/Routing/VandyAStarRouting/DerivedData/VandyAStarRouting/Build/Products/Debug-iphonesimulator/VandyAStarRouting.app"36"1EB37B2C-D8EE-48F2-A35F-79F825444E97-
+

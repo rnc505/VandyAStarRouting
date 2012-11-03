@@ -24,6 +24,9 @@
 		D5AD8EB61643ABE500D90DF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AD8EB51643ABE500D90DF7 /* Default-568h@2x.png */; };
 		D5AD8EB91643ABE500D90DF7 /* VUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AD8EB81643ABE500D90DF7 /* VUViewController.m */; };
 		D5AD8EBC1643ABE500D90DF7 /* VUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5AD8EBA1643ABE500D90DF7 /* VUViewController.xib */; };
+		D5E8BCEF1644D1F8002C34BB /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E8BCEE1644D1F8002C34BB /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D5E8BCF21644EB9A002C34BB /* paths.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5E8BCF11644EB9A002C34BB /* paths.txt */; };
+		D5E8BCF91644ED47002C34BB /* points.txt in Resources */ = {isa = PBXBuildFile; fileRef = D5E8BCF81644ED47002C34BB /* points.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,10 @@
 		D5AD8EB71643ABE500D90DF7 /* VUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VUViewController.h; sourceTree = "<group>"; };
 		D5AD8EB81643ABE500D90DF7 /* VUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VUViewController.m; sourceTree = "<group>"; };
 		D5AD8EBB1643ABE500D90DF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VUViewController.xib; sourceTree = "<group>"; };
+		D5E8BCED1644D1F8002C34BB /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		D5E8BCEE1644D1F8002C34BB /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		D5E8BCF11644EB9A002C34BB /* paths.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = paths.txt; sourceTree = "<group>"; };
+		D5E8BCF81644ED47002C34BB /* points.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = points.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +110,8 @@
 		D5AD8EA51643ABE500D90DF7 /* VandyAStarRouting */ = {
 			isa = PBXGroup;
 			children = (
+				D5E8BCED1644D1F8002C34BB /* JSONKit.h */,
+				D5E8BCEE1644D1F8002C34BB /* JSONKit.m */,
 				D5479A7116441B44009BE9A0 /* VUGraphNode.h */,
 				D5479A7216441B44009BE9A0 /* VUGraphNode.m */,
 				D5479A8B164429B7009BE9A0 /* VUGraphOperator.h */,
@@ -128,6 +137,8 @@
 				D5AD8EA81643ABE500D90DF7 /* InfoPlist.strings */,
 				D5AD8EAB1643ABE500D90DF7 /* main.m */,
 				D5AD8EAD1643ABE500D90DF7 /* VandyAStarRouting-Prefix.pch */,
+				D5E8BCF11644EB9A002C34BB /* paths.txt */,
+				D5E8BCF81644ED47002C34BB /* points.txt */,
 				D5AD8EB11643ABE500D90DF7 /* Default.png */,
 				D5AD8EB31643ABE500D90DF7 /* Default@2x.png */,
 				D5AD8EB51643ABE500D90DF7 /* Default-568h@2x.png */,
@@ -192,6 +203,8 @@
 				D5AD8EB41643ABE500D90DF7 /* Default@2x.png in Resources */,
 				D5AD8EB61643ABE500D90DF7 /* Default-568h@2x.png in Resources */,
 				D5AD8EBC1643ABE500D90DF7 /* VUViewController.xib in Resources */,
+				D5E8BCF21644EB9A002C34BB /* paths.txt in Resources */,
+				D5E8BCF91644ED47002C34BB /* points.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +222,7 @@
 				D5479A7E16442034009BE9A0 /* VUGraphPath.m in Sources */,
 				D5479A8D164429B7009BE9A0 /* VUGraphOperator.m in Sources */,
 				D5479A9016442EBB009BE9A0 /* VUGraph.m in Sources */,
+				D5E8BCEF1644D1F8002C34BB /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
