@@ -40,13 +40,11 @@
         VUGraphPath *newPath = [VUGraphPath pathWithNodes:tempSet IsWheelchairAccessable:YES Steps:path[@"points"]];
         [graph addPath:newPath];
     }
+    [graph findShortestPath];
+    NSLog(@"");
 }
 
--(void)findShortestPath {
-    // ABA to AAM
-    NSMutableSet *openSet = [NSMutableSet new];
-    NSMutableSet *closedSet = [NSMutableSet new];
-}
+
 
 - (void)didReceiveMemoryWarning
 {

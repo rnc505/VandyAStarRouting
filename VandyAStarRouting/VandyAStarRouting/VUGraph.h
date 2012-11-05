@@ -18,5 +18,5 @@
 
 -(VUGraphNode*)getNodeByIdentifier:(NSString*)identifer;
 -(NSSet*)getListOfPlaceNames;
-
+-(void)findShortestPath;
 @end

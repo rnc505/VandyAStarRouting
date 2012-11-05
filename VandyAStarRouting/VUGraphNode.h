@@ -11,6 +11,8 @@
 @interface VUGraphNode : NSObject
 
 @property (nonatomic, assign) CLLocationCoordinate2D location;
+@property (nonatomic, retain) CLLocation *locationObj;
+@property (nonatomic, assign) CLLocationDistance gScore;
 @property (nonatomic, retain) NSSet *neighbors;
 @property (nonatomic, retain) NSString *identifer;
 @property (nonatomic, retain) NSString *title;

@@ -21,6 +21,15 @@
     return newPath;
 }
 
+-(void)setNodes:(NSSet *)nodes {
+    NSArray *array = [nodes allObjects];
+    VUGraphNode *node1 = [array objectAtIndex:0];
+    VUGraphNode *node2 = [array objectAtIndex:1];
+    [node1 addNeighborNode:node2];
+    [node2 addNeighborNode:node1];
+    _nodes = nodes;
+}
+
 +(NSString*)determineIdentifer:(NSSet*)nodes {
     NSArray *theNodes = [nodes allObjects];
     NSString *node0ID = ((VUGraphNode*)[theNodes objectAtIndex:0]).identifer;

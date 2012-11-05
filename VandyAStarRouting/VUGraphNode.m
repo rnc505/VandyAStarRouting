@@ -9,17 +9,19 @@
 #import "VUGraphNode.h"
 
 @implementation VUGraphNode
-@synthesize location = _location, neighbors = _neighbors, identifer = _identifer, title = _title, isSpecialLocation = _isSpecialLocation, parentNode = _parentNode;
+@synthesize location = _location, neighbors = _neighbors, identifer = _identifer, title = _title, isSpecialLocation = _isSpecialLocation, parentNode = _parentNode, locationObj = _locationObj;
 
 +(VUGraphNode *)nodeWithLocation:(CLLocationCoordinate2D)loc Idenitifier:(NSString *)ident Title:(NSString *)tit {
     
     VUGraphNode *newNode = [[VUGraphNode alloc] init];
     [newNode setLocation:loc];
+    [newNode setLocationObj:[[CLLocation alloc]initWithLatitude:loc.latitude longitude:loc.longitude]];
     [newNode setNeighbors:[NSSet set]];
     [newNode setIdentifer:ident];
     [newNode setTitle:tit];
     [newNode setIsSpecialLocation:(![tit isEqualToString:@""])];
     [newNode setParentNode:nil];
+    [newNode setGScore:-1.0];
     return newNode;
 }
 
