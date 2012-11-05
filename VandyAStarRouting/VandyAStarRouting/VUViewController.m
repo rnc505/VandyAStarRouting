@@ -42,6 +42,12 @@
     }
 }
 
+-(void)findShortestPath {
+    // ABA to AAM
+    NSMutableSet *openSet = [NSMutableSet new];
+    NSMutableSet *closedSet = [NSMutableSet new];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

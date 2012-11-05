@@ -9,7 +9,7 @@
 #import "VUGraphNode.h"
 
 @implementation VUGraphNode
-@synthesize location = _location, neighbors = _neighbors, identifer = _identifer, title = _title, isSpecialLocation = _isSpecialLocation;
+@synthesize location = _location, neighbors = _neighbors, identifer = _identifer, title = _title, isSpecialLocation = _isSpecialLocation, parentNode = _parentNode;
 
 +(VUGraphNode *)nodeWithLocation:(CLLocationCoordinate2D)loc Idenitifier:(NSString *)ident Title:(NSString *)tit {
     
@@ -19,7 +19,12 @@
     [newNode setIdentifer:ident];
     [newNode setTitle:tit];
     [newNode setIsSpecialLocation:(![tit isEqualToString:@""])];
+    [newNode setParentNode:nil];
     return newNode;
+}
+
+-(void)setParentNode:(VUGraphNode *)parentNode {
+    _parentNode = parentNode;
 }
 
 -(void)addNeighborNode:(VUGraphNode *)neighbor {

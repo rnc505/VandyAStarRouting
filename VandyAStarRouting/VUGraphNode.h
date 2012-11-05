@@ -15,6 +15,7 @@
 @property (nonatomic, retain) NSString *identifer;
 @property (nonatomic, retain) NSString *title;
 @property (nonatomic, assign) BOOL isSpecialLocation;
+@property (nonatomic, retain) VUGraphNode *parentNode;
 
 +(VUGraphNode*)nodeWithLocation:(CLLocationCoordinate2D)loc Idenitifier:(NSString*)ident Title:(NSString*)tit;
 -(void)addNeighborNode:(VUGraphNode*)neighbor;
