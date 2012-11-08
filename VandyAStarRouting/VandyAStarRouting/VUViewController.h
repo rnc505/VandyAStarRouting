@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "VUGraph.h"
-@interface VUViewController : UIViewController
-
+@interface VUViewController : UIViewController <MKMapViewDelegate>
+@property (nonatomic, retain) MKMapView *mapView;
 @end

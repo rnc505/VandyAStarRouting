@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUViewController.m"
-         timestampString = "373826136.21711"
+         timestampString = "374005998.731081"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "33"
-         endingLineNumber = "33"
+         startingLineNumber = "38"
+         endingLineNumber = "38"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUViewController.m"
-         timestampString = "373826136.21711"
+         timestampString = "374005998.731081"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "32"
-         endingLineNumber = "32"
+         startingLineNumber = "37"
+         endingLineNumber = "37"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,20 +47,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUViewController.m"
-         timestampString = "373826136.21711"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "36"
-         endingLineNumber = "36"
-         landmarkName = "-viewDidLoad"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "VandyAStarRouting/VUViewController.m"
-         timestampString = "373826130.90875"
+         timestampString = "374005998.731081"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "41"
@@ -73,11 +60,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUViewController.m"
-         timestampString = "373826192.027492"
+         timestampString = "374005998.731081"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
+         startingLineNumber = "46"
+         endingLineNumber = "46"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -86,11 +73,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUViewController.m"
-         timestampString = "373850954.39945"
+         timestampString = "374005998.731081"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "44"
-         endingLineNumber = "44"
+         startingLineNumber = "45"
+         endingLineNumber = "45"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "VandyAStarRouting/VUViewController.m"
+         timestampString = "374005998.731081"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "50"
+         endingLineNumber = "50"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -112,11 +112,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUViewController.m"
-         timestampString = "373831109.064179"
+         timestampString = "374005998.731081"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "34"
-         endingLineNumber = "34"
+         startingLineNumber = "39"
+         endingLineNumber = "39"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -125,12 +125,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUGraph.m"
-         timestampString = "373852140.944586"
+         timestampString = "374017737.333993"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "134"
-         endingLineNumber = "134"
-         landmarkName = "-findShortestPath"
+         startingLineNumber = "163"
+         endingLineNumber = "163"
+         landmarkName = "-findShortestPathFrom:to:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -138,11 +138,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUGraph.m"
-         timestampString = "373851204.614804"
+         timestampString = "374005643.058369"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "56"
-         endingLineNumber = "56"
+         startingLineNumber = "65"
+         endingLineNumber = "65"
          landmarkName = "-update:withCurrentNode:toTheEndingNode:excludeClosedSet:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -151,12 +151,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUGraph.m"
-         timestampString = "373852140.944586"
+         timestampString = "374016837.843065"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "127"
-         endingLineNumber = "127"
-         landmarkName = "-findShortestPath"
+         startingLineNumber = "154"
+         endingLineNumber = "154"
+         landmarkName = "-findShortestPathFrom:to:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -164,25 +164,38 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUGraph.m"
-         timestampString = "373852140.944586"
+         timestampString = "374017737.333993"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "114"
-         endingLineNumber = "114"
-         landmarkName = "-findShortestPath"
+         startingLineNumber = "165"
+         endingLineNumber = "165"
+         landmarkName = "-findShortestPathFrom:to:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "VandyAStarRouting/VUViewController.m"
+         timestampString = "374016837.843065"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "64"
+         endingLineNumber = "64"
+         landmarkName = "-mapView:didUpdateUserLocation:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "VandyAStarRouting/VUGraph.m"
-         timestampString = "373852135.869031"
+         timestampString = "374016633.34863"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "94"
-         endingLineNumber = "94"
-         landmarkName = "-printNodesNames:"
+         startingLineNumber = "120"
+         endingLineNumber = "120"
+         landmarkName = "-graphPaths:ontoMapview:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

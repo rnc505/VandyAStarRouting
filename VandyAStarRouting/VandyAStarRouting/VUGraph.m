@@ -8,8 +8,9 @@
 
 #import "VUGraph.h"
 #import "VUGraphNode.h"
+#import "VUGraphPath.h"
 @implementation VUGraph
-@synthesize nodes = _nodes, paths = _paths;
+@synthesize nodes = _nodes, paths = _paths, mapView = _mapView;
 
 -(id)init {
     self = [super init];
@@ -18,6 +19,15 @@
         _paths = [NSMutableSet new];
     }
     return self;
+}
+
+-(id)initWithMapView:(MKMapView *)mapView {
+    self = [self init];
+    if(self) {
+        _mapView = mapView;
+    }
+    return self;
+    
 }
 
 -(void)addNode:(VUGraphNode *)node {
@@ -86,25 +96,49 @@
     return (NSDictionary*)[openSet objectAtIndex:[[openSet valueForKey:@"fVal"] indexOfObject:lowestFScore]];
 }
 
--(void)printNodesNames:(VUGraphNode*)node {
-    NSLog(@"Node name: %@",node.identifer);
-    if(node.parentNode != nil){
-        [self printNodesNames:node.parentNode];
+-(void)printNodesNames:(VUGraphNode*)node withArray:(NSMutableArray*)finalPaths{
+//    NSLog(@"Node name: %@",node.identifer);
+    
+    // check out VUCast for publicity
+    // gotta finish this
+    for (VUGraphPath *path in self.paths) {
+        if (([path.nodes containsObject:node])&&([path.nodes containsObject:node.parentNode])) {
+            [finalPaths insertObject:path atIndex:0];
+            [self printNodesNames:node.parentNode withArray:finalPaths];
+            break;
+        }
     }
-    NSLog(@"");
+    
 }
 
--(void)findShortestPath {
-    // ABA to AAM
+-(void)graphPaths:(NSMutableArray*)paths ontoMapview:(MKMapView *)map {
+    NSNumber *tempLength = @0;
+    for (VUGraphPath *path in paths) {
+        tempLength = [NSNumber numberWithInt:([tempLength integerValue] + path.steps.count)];
+    }
+    CLLocationCoordinate2D* coords = malloc([tempLength integerValue] * sizeof(CLLocationCoordinate2D));
+    for (VUGraphPath *path in paths) {
+        
+        for (int i = 0; i < path.steps.count; i++)
+        {
+            coords[i] = CLLocationCoordinate2DMake([path.steps[i][@"latitude"] doubleValue], [path.steps[i][@"longitude"] doubleValue]);
+        }
+        MKPolyline *pathLine = [MKPolyline polylineWithCoordinates:coords count:path.steps.count];
+        [map addOverlay:pathLine];
+    }
+}
+
+
+
+-(void)findShortestPathFrom:(VUGraphNode*)startingNode to:(VUGraphNode*)endingNode{
+// ABA to AAM
     
     // create the openSet array and closeSet set
     NSMutableArray *openSet = [NSMutableArray new];
     NSMutableSet *closedSet = [NSMutableSet new];
     
     // chose starting node, add its info to the array
-    VUGraphNode *startingNode = [self getNodeByIdentifier:@"ABK"];
-    [startingNode setGScore:0.0];
-    VUGraphNode *endingNode = [self getNodeByIdentifier:@"AAA"];
+    
     NSDictionary *nodeInformation = [self createNodeInformation:startingNode parent:nil andFValue:0.0];
     [openSet addObject:nodeInformation];
     
@@ -120,11 +154,14 @@
     
     // update openSet via f-scoring
     [self update:openSet withCurrentNode:nodeInformation toTheEndingNode:endingNode excludeClosedSet:closedSet];
-    
+    NSDate *startTime = [NSDate date];
     while (![openSet isEqualToArray:[NSMutableArray array]]) {
         NSDictionary *currentNode = [self getLowestFScore:openSet];
         if ([currentNode[@"node"] isEqual:endingNode]) {
-            [self printNodesNames:endingNode];
+            NSLog(@"time for h = FULL, %f",[[NSDate date] timeIntervalSinceDate:startTime]);
+            NSMutableArray *finalPaths = [NSMutableArray new];
+            [self printNodesNames:endingNode withArray:finalPaths];
+            [self graphPaths:finalPaths ontoMapview:self.mapView];
             break;
         }
         [openSet removeObject:currentNode];
